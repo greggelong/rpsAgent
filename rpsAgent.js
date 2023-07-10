@@ -3,7 +3,7 @@ let rps= ['🗿','📃','✂️'];
 class RpsAgent{
  
   
-  constructor(x,y, ){
+  constructor(x,y){
     this.x = x;
     this.y = y;
     this.kind = floor(random(3))
