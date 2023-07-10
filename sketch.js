@@ -2,7 +2,7 @@ let agents= []
 
 function setup() {
   createCanvas(800,800);
-  frameRate(10);
+  frameRate(30);
   textSize(40)
   textAlign(CENTER)
   for (let i =0; i<30; i++){
