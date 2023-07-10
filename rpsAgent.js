@@ -47,11 +47,11 @@ class RpsAgent{
         
       }
        //  1 paper 2 scissors if paper hits scissors it turns to scissors
-      if (this.kind == 1 && other.kind == 2){
+      else if (this.kind == 1 && other.kind == 2){
         this.kind = 2;
       }
        // 2 scissors  0 rock  if rock hits scissors it turns to rock
-      if (this.kind ==2 && other.kind == 0){
+      else if (this.kind ==2 && other.kind == 0){
         this.kind =0;
       }
     }
